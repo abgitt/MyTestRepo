@@ -1,0 +1,17 @@
+package $com.Test.MavenProject;
+
+/**
+ * Hello world!
+ *
+ */
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class StartTest {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		WebDriver dr=new ChromeDriver();	
+	}
+
+}
